@@ -15,7 +15,7 @@ When a service is down, the most important question is **"What changed?"** This 
     3.  Connects to **LaunchDarkly** (dummy) to find any feature flags that were toggled at the same time.
 * **AI Response:** "The outage on 'auth-service' correlates with a deployment by 'jane.doe' and a feature flag toggle for 'new-signup-flow'. You should investigate the commit or roll back the flag."
 
-## 🔌 Data Sources
+## Data Sources
 
 * **Datadog:** (Simulated) For production monitoring alerts.
 * **GitHub:** (Live) For code deployment and commit history.
